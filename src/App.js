@@ -1,9 +1,10 @@
 import React from "react";
+import Register from "./pages/Register";
 
 const App = () => (
-  <div>
-    <h1>Hello World</h1>
-  </div>
+  <>
+    <Register />
+  </>
 );
 
 export default App;
