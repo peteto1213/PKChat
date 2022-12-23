@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaFileImage } from 'react-icons/fa'
+import ReactFileReader from 'react-file-reader'
 
 function Register() {
   return (
@@ -14,7 +16,14 @@ function Register() {
           <input type="email" placeholder='email' />
           <input type="password"  placeholder='password' />
           <input type="password"  placeholder='confirm password' />
-          <input type="file" className='avatar' placeholder='Add an avatar' />
+          <div className="avatar">
+            <ReactFileReader>
+              <div className="container">
+                <FaFileImage className='icon'/>
+                <span>Add an avatar</span>
+              </div>
+            </ReactFileReader>
+          </div>
           <button>Sign up</button>
         </form>
 

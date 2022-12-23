@@ -33,12 +33,32 @@
             justify-content: center;
             width: 100%;
 
-            input{
+            input, .avatar{
                 width: 100%;
                 border: none;
                 border-bottom: 0.1rem solid rgba(209, 151, 209, 0.3);
                 padding: 1.2rem 1rem;
+
+                
             }
+
+            .container{
+                display: flex;
+                align-items: center;
+                color: rgb(231, 161, 231);
+                cursor: pointer;
+
+
+                .icon{
+                    font-size: 1.7rem;
+                }
+
+                span{
+                    padding-left: 0.5rem;
+                    font-size: 1.1rem;
+                }
+            }
+            
 
             button{
                 text-align: center;
@@ -67,4 +87,49 @@
         }
     }
 
+}
+
+@media (max-width: 1000px) {
+    .register{
+        .form-container{
+            width: 33%;
+        }
+    }
+    
+}
+
+@media (max-width: 991px) {
+    .register{
+        .form-container{
+            width: 50%;
+        }
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .register{
+        .form-container{
+            width: 65%;
+        }
+    }
+    
+}
+
+@media (max-width: 550px) {
+    .register{
+        .form-container{
+            width: 80%;
+        }
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .register{
+        .form-container{
+            width: 90%;
+        }
+    }
+    
 }

@@ -31,11 +31,24 @@
   justify-content: center;
   width: 100%;
 }
-.register .form-container form input {
+.register .form-container form input, .register .form-container form .avatar {
   width: 100%;
   border: none;
   border-bottom: 0.1rem solid rgba(209, 151, 209, 0.3);
   padding: 1.2rem 1rem;
+}
+.register .form-container form .container {
+  display: flex;
+  align-items: center;
+  color: rgb(231, 161, 231);
+  cursor: pointer;
+}
+.register .form-container form .container .icon {
+  font-size: 1.7rem;
+}
+.register .form-container form .container span {
+  padding-left: 0.5rem;
+  font-size: 1.1rem;
 }
 .register .form-container form button {
   text-align: center;
@@ -58,6 +71,31 @@
   color: plum;
 }
 
+@media (max-width: 1000px) {
+  .register .form-container {
+    width: 33%;
+  }
+}
+@media (max-width: 991px) {
+  .register .form-container {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .register .form-container {
+    width: 65%;
+  }
+}
+@media (max-width: 550px) {
+  .register .form-container {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .register .form-container {
+    width: 90%;
+  }
+}
 * {
   margin: 0;
   padding: 0;
