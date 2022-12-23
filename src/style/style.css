@@ -1,1 +1,65 @@
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: plum;
+  height: 100vh;
+}
+.register .form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  border-radius: 1.2rem;
+  background: white;
+  padding: 1.2rem 4rem;
+}
+.register .form-container h1 {
+  color: plum;
+  font-size: 2rem;
+  margin-bottom: 0.7rem;
+}
+.register .form-container p {
+  color: rgb(209, 151, 209);
+  margin-bottom: 1rem;
+}
+.register .form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.register .form-container form input {
+  width: 100%;
+  border: none;
+  border-bottom: 0.1rem solid rgba(209, 151, 209, 0.3);
+  padding: 1.2rem 1rem;
+}
+.register .form-container form button {
+  text-align: center;
+  background: plum;
+  color: white;
+  padding: 0.5rem 0;
+  border: none;
+  border-radius: 0.5rem;
+  width: 100%;
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+.register .form-container form button:hover {
+  opacity: 0.7;
+}
+.register .form-container span a {
+  text-decoration: none;
+  color: plum;
+}
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=style.css.map */

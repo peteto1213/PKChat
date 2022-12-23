@@ -1,0 +1,70 @@
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: plum;
+    height: 100vh;
+
+    .form-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 25%;
+        border-radius: 1.2rem;
+        background: white;
+        padding: 1.2rem 4rem;
+
+        h1{
+            color: plum;
+            font-size: 2rem;
+            margin-bottom: 0.7rem;
+        }
+
+        p{
+            color: rgb(209, 151, 209);
+            margin-bottom: 1rem;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+
+            input{
+                width: 100%;
+                border: none;
+                border-bottom: 0.1rem solid rgba(209, 151, 209, 0.3);
+                padding: 1.2rem 1rem;
+            }
+
+            button{
+                text-align: center;
+                background: plum;
+                color: white;
+                padding: 0.5rem 0;
+                border: none;
+                border-radius: 0.5rem;
+                width: 100%;
+                margin-bottom: 1.2rem;
+                font-size: 1.1rem;
+                transition: all 0.2s linear;
+                cursor: pointer;
+
+                &:hover{
+                    opacity: 0.7;
+                }
+            }
+        }
+
+        span{
+            a{
+                text-decoration: none;
+                color: plum;
+            }
+        }
+    }
+
+}
