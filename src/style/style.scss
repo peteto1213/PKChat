@@ -1,4 +1,17 @@
+// page import
 @import '../pages/Register/register';
+@import '../pages/Login/login';
+@import '../pages/Home/home';
+
+// components import
+@import '../components/Sidebar/sidebar';
+@import '../components/Chat/chat';
+@import '../components/Navbar/navbar';
+@import '../components/Search/search';
+@import '../components/Chats/chats';
+@import '../components/Messages/messages';
+@import '../components/Input/input';
+@import '../components/Message/message';
 
 *{
     margin: 0;

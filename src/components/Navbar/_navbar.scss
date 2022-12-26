@@ -1,0 +1,42 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    background: #a576a5;
+    height: 50px;
+    padding: 10px;
+    justify-content: space-between;
+    color: rgb(228, 228, 228);
+
+    .logo{
+        font-weight: bold;
+    }
+
+    .user{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img{
+            background-color: rgb(252, 205, 252);
+            height: 24px;
+            width: 24px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        button{
+            background-color: rgb(161, 102, 161);
+            font-size: 10px;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            padding: 0.3rem 0.7rem;
+            color: white;
+            transition: 0.2s all linear;
+
+            &:hover{
+                opacity: 0.7;
+            }
+        }
+    }
+}

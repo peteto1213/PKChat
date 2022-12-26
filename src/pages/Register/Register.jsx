@@ -16,7 +16,8 @@ function Register() {
           <input type="email" placeholder='email' />
           <input type="password"  placeholder='password' />
           <input type="password"  placeholder='confirm password' />
-          <div className="avatar">
+          
+          <div className='upload'>         
             <ReactFileReader>
               <div className="container">
                 <FaFileImage className='icon'/>
@@ -24,6 +25,7 @@ function Register() {
               </div>
             </ReactFileReader>
           </div>
+          
           <button>Sign up</button>
         </form>
 

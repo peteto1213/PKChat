@@ -1,4 +1,4 @@
-.register{
+.login{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,29 +39,7 @@
                 border-bottom: 0.1rem solid rgba(209, 151, 209, 0.3);
                 padding: 1.2rem 1rem;
             }
-
-            .upload{
-                width: 100%;
-                .container{
-                    display: flex;
-                    align-items: center;
-                    width: 100%;
-                    color: rgb(231, 161, 231);
-                    cursor: pointer;
-                    padding: 1.2rem 1rem;
-    
-                    .icon{
-                        font-size: 1.7rem;
-                    }
-    
-                    span{
-                        padding-left: 0.5rem;
-                        font-size: 1.1rem;
-                    }
-                }
-            }
             
-
             button{
                 text-align: center;
                 background: plum;
@@ -70,7 +48,7 @@
                 border: none;
                 border-radius: 0.5rem;
                 width: 100%;
-                margin-bottom: 1.2rem;
+                margin: 1.2rem 0;
                 font-size: 1.1rem;
                 transition: all 0.2s linear;
                 cursor: pointer;
@@ -92,7 +70,7 @@
 }
 
 @media (max-width: 1000px) {
-    .register{
+    .login{
         .form-container{
             width: 33%;
         }
@@ -101,7 +79,7 @@
 }
 
 @media (max-width: 991px) {
-    .register{
+    .login{
         .form-container{
             width: 50%;
         }
@@ -110,7 +88,7 @@
 }
 
 @media (max-width: 768px) {
-    .register{
+    .login{
         .form-container{
             width: 65%;
         }
@@ -119,7 +97,7 @@
 }
 
 @media (max-width: 550px) {
-    .register{
+    .login{
         .form-container{
             width: 80%;
         }
@@ -128,7 +106,7 @@
 }
 
 @media (max-width: 500px) {
-    .register{
+    .login{
         .form-container{
             width: 90%;
         }
